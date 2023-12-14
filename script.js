@@ -15,4 +15,4 @@ function mapLatters(str) {
 }
 
 const str=prompt();
-alert(mapLatters(str));
+alert(JSON.stringify(mapLatters(str)));
